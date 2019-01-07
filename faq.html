@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="SmartSocial">
+        <meta name="author"      content="FER">
+
+        <title>FAQ</title>
+
+        <link rel="shortcut icon" href="assets/images/icon-ss.png">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <!-- Icons -->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="assets/js/template.js"></script>
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                // navigation click actions	
+                $('.scroll-link').on('click', function(event) {
+                    event.preventDefault();
+                    var sectionID = $(this).attr("data-id");
+                    scrollToID('#' + sectionID, 750);
+                });
+                // scroll to top action
+                $('.scroll-top').on('click', function(event) {
+                    event.preventDefault();
+                    $('html, body').animate({scrollTop: 0}, 'slow');
+                });
+                // mobile nav toggle
+                $('#nav-toggle').on('click', function(event) {
+                    event.preventDefault();
+                    $('#main-nav').toggleClass("open");
+                });
+            });
+// scroll function
+            function scrollToID(id, speed) {
+                var offSet = 140;
+                var targetOffset = $(id).offset().top - offSet;
+                var mainNav = $('#main-nav');
+                $('html,body').animate({scrollTop: targetOffset}, speed);
+                if (mainNav.hasClass("open")) {
+                    mainNav.css("height", "15px").removeClass("in").addClass("collapse");
+                    mainNav.removeClass("open");
+                }
+            }
+            if (typeof console === "undefined") {
+                console = {
+                    log: function() {
+                    }
+                };
+            }
+        </script>
+        <style>
+            .imgLogo{
+                max-width: 130px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header id="header">
+            <div id="head" class="parallax" parallax-speed="2">
+                <h1 id="logo" class="text-center">
+                    <img class="img-circle" src="assets/images/logo-ss.png" alt="">
+                    <span class="title">SmartSocial</span>
+                </h1>
+            </div>
+
+            <nav class="navbar navbar-default navbar-sticky">
+                <div class="container-fluid">
+
+                    <div class="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="partners.html">Partners</a></li>
+                            <li><a href="team.html">Team</a></li>
+							<li class="active"><a href="faq.html">FAQ</a></li>
+                            <li><a href="app.html">App</a></li>
+                            <li><a href="login.php " >Login</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->			
+                </div>	
+            </nav>
+        </header>
+
+    <main id="main">
+        <div class="container">
+		
+			<div class="row topspace">
+			<div class="col-sm-1 col-md-1 text-center">
+				
+			</div>
+			<div class="col-sm-10 col-md-10">
+				<h4>1. How large is the app, how much data does it use?</h4>
+				<br/>
+				<p>In case you have a limited data-plan - don't sweat, the app itself is <strong>1.1 MB only</strong>. <br/>
+				The data it uploads is a lot less than that, so less than 2 MB of your data-plan is used in total.</p>
+				
+				<h4>2. Where is the iPhone app?</h4>
+				<br/>
+				<p>The app is available for Android only, due to technical challenges on Apple iOS. <br/>
+				iPhone app is not scheduled for release as it does not provide sufficient data needed for our research. <br/>
+				Windows Phone app is scheduled, but not to be released soon.</p>
+			
+				<h4>2. What about privacy?</h4>
+				<br/>
+				<p>Read all about it <a href="app.html">here.</a></p>
+				
+				
+				<h4>3. What data do you collect and how?</h4>
+				<br/>
+				<p>We analyze <strong>quantity of data only</strong>, meaning we count the items such as calls, SMS, statuses, etc.<br/>
+				<a href="app.html">This is the data we collect</a> – don't worry, your personal data is safe with us.</p>
+				
+				<h4>4. The message I get at the last step of the app says "Service unavailable", "No data was uploaded" or "Could not login at this time".</h4>
+				<br/>
+				<p>Press the button "Close" which closes the app. <br/>
+				Check your Internet connection - we strongly advise <strong>using Mobile Internet instead of WiFi</strong>. <br/>
+				If it fails again, press the button "Close" and try again by re-opening the app. If it fails again, repeat at least two more times. <br/>
+				If it fails again, uninstall the app and re-install it. <br/>
+				If all of these attempts fail, please <a href="mailto:smartsocial.unizg@gmail.com">send us an email</a> and we'll get back to you with the solution!</p>		
+							
+				<h4>5. Can I uninstall the Android application?</h4>
+				<br/>
+				<p>In case you've reached the last step of the app <strong>succesfully</strong>, you can uninstall it. <br/>
+				Remember your <strong>password</strong> at this step - at any given time, you can use it to <a href="login.php">login here</a>.</p>			
+					
+				<h4>6. How can I login to view my SmartSocial profile?</h4>
+				<br/>
+				<p>In case you've reached the last step of the app <strong>succesfully</strong>, you can see your password by pressing the "Go!" button in the app. <br/>
+				After pressing "OK", your profile will load and open. <br/>
+				Alternatively, you can use your password to <a href="login.php">login here</a>.</p>			
+					
+				<h4>More questions?</h4>
+					<br/>
+				<p>Send us <a href="mailto:smartsocial.unizg@gmail.com">an email</a>!</p>
+			</div>
+			<div class="col-sm-1 col-md-1 text-center">
+					
+			</div>
+		</div>
+			
+		<br/>
+	</div>	<!-- /container -->
+
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 widget">
+                    <h3 class="widget-title">Contact</h3>
+                    <div class="widget-body">
+                        <p>
+                            <a href="mailto:smartsocial.unizg@gmail.com">smartsocial.unizg@gmail.com</a><br>
+                            University of Zagreb, Faculty of Electrical Engineering and Computing<br><br>
+                            <strong>Address:</strong> <br>Unska 3<br> 10000 Zagreb<br> Croatia
+                        </p>	
+                    </div>
+                </div>
+				
+				<div class="col-md-2 widget">
+                    <h3 class="widget-title">Privacy Policy</h3>
+                    <div class="widget-body">
+                        <p class="follow-me-icons">
+                            <a href="/Privacy_Policy.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2"></i></a>
+							<br/>
+                        </p>
+                    </div>
+                </div>
+				
+                <div class="col-md-2 widget">
+                    <h3 class="widget-title">Follow us</h3>
+                    <div class="widget-body">
+                        <p class="follow-me-icons">
+                            <a href="https://www.facebook.com/SmartSocialInfluence" target="_blank"><i class="fa fa-facebook-square fa-2"></i></a>
+                            <a href=""><i class="fa fa-twitter fa-2"></i></a>
+							<br/>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div> <!-- /row of widgets -->
+        </div>
+    </footer>
+
+    <footer id="underfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 widget col-md-offset-6">
+                    <div class="widget-body">
+                        <p class="text-right">
+                            Copyright &copy; 2014, University of Zagreb<br> 
+                            <a href="https://www.fer.unizg.hr/en" rel="">Faculty of Electrical Engineering and Computing</a> </p>
+                    </div>
+                </div>
+
+            </div> <!-- /row of widgets -->
+        </div>
+    </footer>
+
+</body>
+</html>
