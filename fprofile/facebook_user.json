@@ -1,0 +1,775 @@
+{
+    "name": "Facebook User",
+    "parent": "null",
+    "children": [
+        {
+            "name": "user_about.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "id",
+                    "parent": "user_about.txt"
+                },
+                {
+                    "name": "first_name",
+                    "parent": "user_about.txt"
+                },
+                {
+                    "name": "last_name",
+                    "parent": "user_about.txt"
+                },
+                {
+                    "name": "birthday",
+                    "parent": "user_about.txt"
+                },
+                {
+                    "name": "gender",
+                    "parent": "user_about.txt"
+                },
+                {
+                    "name": "education (Object)",
+                    "parent": "user_about.txt",
+                    "children": [
+                        {
+                            "name": "school (Object)",
+                            "parent": "education (Object)",
+                            "children": [
+                                {
+                                    "name": "id",
+                                    "parent": "school (Object)"
+                                },
+                                {
+                                    "name": "name",
+                                    "parent": "school (Object)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "type",
+                            "parent": "education (Object)"
+                        },
+                        {
+                            "name": "concentration",
+                            "parent": "education (Object)",
+                            "children": [
+                                {
+                                    "name": "id",
+                                    "parent": "concentration (Object)"
+                                },
+                                {
+                                    "name": "name",
+                                    "parent": "concentration (Object)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "year",
+                            "parent": "education (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "work (Object)",
+                    "parent": "user_about.txt",
+                    "children": [
+                        {
+                            "name": "employer (Object)",
+                            "parent": "work (Object)",
+                            "children": [
+                                {
+                                    "name": "id",
+                                    "parent": "employer (Object)"
+                                },
+                                {
+                                    "name": "name",
+                                    "parent": "employer (Object)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "location (Object)",
+                            "parent": "work (Object)",
+                               "children": [
+                                {
+                                    "name": "id",
+                                    "parent": "location (Object)"
+                                },
+                                {
+                                    "name": "name",
+                                    "parent": "location (Object)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "start_date",
+                            "parent": "work (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "hometown (Object)",
+                    "parent": "user_about.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "hometown (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "hometown (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "location (Object)",
+                    "parent": "user_about.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "location (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "location (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "favorite_teams (Object)",
+                    "parent": "user_about.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "favorite_teams (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "favorite_teams (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "interested_in",
+                    "parent": "user_about.txt"
+                },
+                {
+                    "name": "timezone",
+                    "parent": "user_about.txt"
+                }
+
+            ]
+        },
+        {
+            "name": "feed.txt (Object)",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "id",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "from",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "message",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "story",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "picture",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "link",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "icon",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "privacy",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "place",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "type",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "status_type",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "object_id",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "created_time",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "updated_time",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "is_hidden",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "subscribed",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "likes",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "source",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "name",
+                    "parent": "feed.txt"
+                }, {
+                    "name": "caption",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "description",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "shares",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "comments",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "to",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "message_tags",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "with_tags",
+                    "parent": "feed.txt"
+                },
+                {
+                    "name": "story_tags",
+                    "parent": "feed.txt"
+                }
+            ]
+        },
+        {
+            "name": "friends.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "friends (Object)",
+                    "parent": "friends.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "friends (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "friends (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "close_friends (Object)",
+                    "parent": "friends.txt",
+                    "children": [
+                        {
+                            "name": "uid",
+                            "parent": "close_friends (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "mutual_friends_count (Object)",
+                    "parent": "friends.txt",
+                    "children": [
+                        {
+                            "name": "uid",
+                            "parent": "mutual_friends_count (Object)"
+                        },
+                        {
+                            "name": "mutual_friend_count",
+                            "parent": "mutual_friends_count (Object)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "inbox.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "inbox (Object)",
+                    "parent": "inbox.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "inbox (Object)"
+                        },
+                        {
+                            "name": "to (Object)",
+                            "parent": "inbox (Object)",
+                            "children": [
+                                {
+                                    "name": "id",
+                                    "parent": "to (Object)"
+                                },
+                                {
+                                    "name": "name",
+                                    "parent": "to (Object)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "comments (Object)",
+                            "parent": "inbox (Object)",
+                            "children": [
+                                {
+                                    "name": "id",
+                                    "parent": "comments (Object)"
+                                },
+                                {
+                                    "name": "from",
+                                    "parent": "comments (Object)"
+                                },
+                                {
+                                    "name": "created_time",
+                                    "parent": "comments (Object)"
+                                }, {
+                                    "name": "from",
+                                    "parent": "comments (Object)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "updated_time",
+                            "parent": "inbox (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "inbox_count (Object)",
+                    "parent": "inbox.txt",
+                    "children": [
+                        {
+                            "name": "thread_id",
+                            "parent": "inbox_count (Object)"
+                        },
+                        {
+                            "name": "thread_id",
+                            "parent": "inbox_count (Object)"
+                        },
+                        {
+                            "name": "message_count",
+                            "parent": "inbox_count (Object)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "likes.txt (Object)",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "id",
+                    "parent": "likes.txt (Object)"
+                },
+                {
+                    "name": "name",
+                    "parent": "likes.txt (Object)"
+                },
+                {
+                    "name": "category",
+                    "parent": "likes.txt (Object)"
+                }, {
+                    "name": "created_time",
+                    "parent": "likes.txt (Object)"
+                }
+            ]
+        },
+        {
+            "name": "links.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "user_links (Object)",
+                    "parent": "links.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "from",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "link",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "privacy",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "description",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "message",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "icon",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "picture",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "likes",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "comments",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "caption",
+                            "parent": "user_links (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "user_links (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "user_link_likes (Object)",
+                    "parent": "links.txt",
+                    "children": [
+                        {
+                            "name": "owner",
+                            "parent": "user_link_likes (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "user_link_likes (Object)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "photos.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "user_photo_likes (Object)",
+                    "parent": "photos.txt",
+                    "children": [
+                        {
+                            "name": "owner",
+                            "parent": "user_link_likes (Object)"
+                        },
+                        {
+                            "name": "created",
+                            "parent": "user_link_likes (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "tagged_photos (Object)",
+                    "parent": "photos.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "tagged_photos (Object)"
+                        },
+                        {
+                            "name": "from",
+                            "parent": "tagged_photos (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "tagged_photos (Object)"
+                        },
+                        {
+                            "name": "updated_time",
+                            "parent": "tagged_photos (Object)"
+                        },
+                        {
+                            "name": "tags",
+                            "parent": "tagged_photos (Object)"
+                        },
+                        {
+                            "name": "likes",
+                            "parent": "tagged_photos (Object)"
+                        },
+                        {
+                            "name": "comments",
+                            "parent": "tagged_photos (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "uploaded_photos (Object)",
+                    "parent": "photos.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "uploaded_photos (Object)"
+                        },
+                        {
+                            "name": "from",
+                            "parent": "uploaded_photos (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "uploaded_photos (Object)"
+                        },
+                        {
+                            "name": "updated_time",
+                            "parent": "uploaded_photos (Object)"
+                        },
+                        {
+                            "name": "tags",
+                            "parent": "uploaded_photos (Object)"
+                        },
+                        {
+                            "name": "likes",
+                            "parent": "uploaded_photos (Object)"
+                        },
+                        {
+                            "name": "comments",
+                            "parent": "uploaded_photos (Object)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "statuses.txt (Object)",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "id",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "from",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "message",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "updated_time",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "place",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "likes",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "comments",
+                    "parent": "uploaded_photos (Object)"
+                },
+                {
+                    "name": "tags",
+                    "parent": "uploaded_photos (Object)"
+                }
+            ]
+        },
+        {
+            "name": "locations_groups.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "locations (Object)",
+                    "parent": "locations_groups.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "locations (Object)"
+                        },
+                        {
+                            "name": "from",
+                            "parent": "locations (Object)"
+                        },
+                        {
+                            "name": "type",
+                            "parent": "locations (Object)"
+                        },
+                        {
+                            "name": "place",
+                            "parent": "locations (Object)"
+                        },
+                        {
+                            "name": "application",
+                            "parent": "locations (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "locations (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "groups (Object)",
+                    "parent": "locations_groups.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "groups (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "groups (Object)"
+                        },
+                        {
+                            "name": "administrator",
+                            "parent": "groups (Object)"
+                        },
+                        {
+                            "name": "bookmark_order",
+                            "parent": "groups (Object)"
+                        },
+                        {
+                            "name": "unread",
+                            "parent": "groups (Object)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "music_movies_books_games.txt",
+            "parent": "Facebook User",
+            "children": [
+                {
+                    "name": "music (Object)",
+                    "parent": "music_movies_books_games.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "music (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "music (Object)"
+                        },
+                        {
+                            "name": "category",
+                            "parent": "music (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "music (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "movies (Object)",
+                    "parent": "music_movies_books_games.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "movies (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "movies (Object)"
+                        },
+                        {
+                            "name": "category",
+                            "parent": "movies (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "movies (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "books (Object)",
+                    "parent": "music_movies_books_games.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "books (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "books (Object)"
+                        },
+                        {
+                            "name": "category",
+                            "parent": "books (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "books (Object)"
+                        }
+                    ]
+                },
+                {
+                    "name": "games (Object)",
+                    "parent": "music_movies_books_games.txt",
+                    "children": [
+                        {
+                            "name": "id",
+                            "parent": "games (Object)"
+                        },
+                        {
+                            "name": "name",
+                            "parent": "games (Object)"
+                        },
+                        {
+                            "name": "category",
+                            "parent": "games (Object)"
+                        },
+                        {
+                            "name": "created_time",
+                            "parent": "games (Object)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

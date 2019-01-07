@@ -1,0 +1,25 @@
+<div class="container" ng-init="init()">
+<h1 class="text-center">SmartSocial Top 10</h1>
+     <table class="table">
+                        <thead>
+                            <tr class="info">
+                                <th class="text-center">#</th>
+                                <th class="text-center">Photo</th>
+                                <th class="text-center">Name</th>
+                                <th class="text-center">Social influence</th>
+                                <th class="text-center">Telco influence</th>
+                                <th class="text-center">Total influence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="user in users" class="active">
+                                <td class="text-center"><strong>{{$index + 1}}.</strong></td>
+                                <td class="text-center"><img ng-src="http://graph.facebook.com/{{user.facebook_id}}/picture"/></td>
+                                <td class="text-center">{{user.first_name}} {{user.last_name}}</td>
+                                <td class="text-center">{{user.social_influence}}</td>
+                                <td class="text-center">{{user.telco_influence}}</td>
+                                <td class="text-center" style="color:#8b0000;"><strong>{{user.total_influence}}</strong></td>   
+                            </tr>
+                        </tbody>
+                    </table>
+</div>

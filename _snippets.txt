@@ -1,0 +1,5 @@
+<div class="row section topspace">
+                <div class="col-md-12">
+                    <p class="lead text-center text-muted">"Increasing competence, knowledge and research in the field of social networking, seeking to benefit both the Croatian industry and academia long-term!"</p>
+                </div>
+            </div>
